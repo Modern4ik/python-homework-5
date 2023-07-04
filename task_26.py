@@ -46,10 +46,10 @@ def print_report(res: int | float | None) -> None:
 
 ###########################################################
 
-    number = get_value_from_user("Введите число: ")
-    numb_pow = get_value_from_user("Введите целую степень для возведения числа: ")
+number = get_value_from_user("Введите число: ")
+numb_pow = get_value_from_user("Введите целую степень для возведения числа: ")
 
-    result = numb_exponent(number, numb_pow)
+result = numb_exponent(number, numb_pow)
 
-    print()
-    print_report(result)
+print()
+print_report(result)
